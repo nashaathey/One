@@ -1,0 +1,8 @@
+Scaffold-Dbcontext -provider Microsoft.EntityFrameworkCore.SqlServer -connection "Data Source=imageserver;Initial Catalog=DBFirstCrud;Persist Security Info=True;MultipleActiveResultSets=True;User ID=__user__;Password=*********" -OutputDir "Models" -ContextDir "Data" -DataAnnotations
+
+Update-Database
+
+Add-Migration
+
+
+
